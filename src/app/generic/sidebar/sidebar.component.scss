@@ -1,0 +1,47 @@
+
+  .filterHeading{
+    border-bottom: 1px solid grey;
+     
+    color:black;
+    text-align: center;
+    display: block;
+}
+
+.sidenav {
+    min-width: 145px;
+    max-width: 145px;
+    transition: width .1s ease-out;
+    // height: 100%;
+     position: relative;
+    margin-top: 1rem;
+    margin-right: .5rem;
+    margin-left: .5rem;
+    background: #fff;
+    overflow-x: hidden;
+    padding: 8px 10px;
+  }
+
+  
+  .sidenav a {
+    // padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 14px;
+    color: black;
+    display: block;
+    background-color: #bee695;
+    margin-left: 12px;
+    margin-bottom: 10px;
+    border-radius: 3px;
+    text-align: center !important;
+    padding: 5px 11px;
+  }
+  
+  .sidenav a:active {
+    background-color: #067932;
+  }
+
+  .visitedLinkColor{
+    background-color : blue;  }
+//   a:active { 
+//     color: red;
+// }

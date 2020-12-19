@@ -1,0 +1,114 @@
+// .container-fluid {
+//     // width: 100%;
+//     // max-width: 700px;
+//     // margin: 2em auto;
+//   //  clear: both;
+//     background: #BFBFBF;
+//     padding-bottom: 1em;
+// }
+body {
+    font-family: "Lato", sans-serif;
+  }
+// .cols {
+//     -moz-column-count:4;
+//     -moz-column-gap: 3%;
+//     -moz-column-width: 30%;
+//     -webkit-column-count:3;
+//     -webkit-column-gap: 3%;
+//     -webkit-column-width: 30%;
+//     column-count: 4;
+//     column-gap: 3%;
+//     column-width: 30%;
+// }
+// .box {
+//     // margin-bottom: 20px;
+//     height:100px;
+//     background:#BFBFBF;
+// }
+
+
+
+.sidenav {
+    width: 130px;
+    // position: fixed;
+    // float: left;
+    
+    // z-index: 1;
+    // top: 62px;
+    // left: 10px;
+    background: #fff;
+    overflow-x: hidden;
+    padding: 8px 10px;
+  }
+
+  .yearFilter{
+    background-color: chartreuse;
+    margin-left: 12px;
+    margin-bottom: 10px;
+    border-radius: 3px;
+    text-align: center !important;
+    padding: 5px 11px;
+  }
+
+  .filterHeading{
+    border-bottom: 1px solid grey;
+     
+    color:black;
+    text-align: center;
+    display: block;
+}
+
+.imagePro{
+  height: 20%;
+  padding: 5px 10px;;
+  width: 100%;
+}
+
+.content-wrapper{
+  flex: auto;
+  overflow-y: auto;
+  margin-top: 1rem;
+  overflow-x: hidden;
+  overflow-y: overlay;
+}
+  
+  .sidenav a {
+    // padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 14px;
+    color: black;
+    display: block;
+    background-color: chartreuse;
+    margin-left: 12px;
+    margin-bottom: 10px;
+    border-radius: 3px;
+    text-align: center !important;
+    padding: 5px 11px;
+  }
+  
+  .sidenav a:hover {
+    color: #064579;
+  }
+  
+  .main {
+    // margin-left: 140px; /* Same width as the sidebar + left position in px */
+    font-size: 14px; /* Increased text to enable scrolling */
+    padding: 0px 10px;
+    // margin-top: -21px;
+  }
+  
+
+  .blue{
+    color: #2365ad;
+  }
+  
+
+  .pic{
+    width: 50%;
+     height: 50%; 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background: #dee2e6;
+    margin-top: 2px;
+}

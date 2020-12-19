@@ -1,0 +1,24 @@
+
+    <div class="sidenav">
+      <h6>Filters</h6>
+      <p class="filterHeading">Launch Year</p>
+      <div class="row">
+
+        <a *ngFor='let y of years'  [routerLink]="['/space-detail',y]"  routerLinkActive>{{y}}</a>
+
+        <!-- <a href="#services">{{yr}}</a> -->
+      </div>
+      <p class="filterHeading">Successful Launch</p>
+      <div class="row">
+        <a [routerLink]="['/space-launch',true]">true</a>
+        <a [routerLink]="['/space-launch',false]">false</a>
+      </div>
+
+      <p class="filterHeading">Successful Landing</p>
+      <div class="row">
+        <a [routerLink]="['/space-landing',true]">true</a>
+        <a [routerLink]="['/space-landing',false]">false</a>
+      </div>
+
+    </div>
+ 

@@ -1,0 +1,26 @@
+
+     <ngx-loading [show]="loading" [config]="{ backdropBorderRadius: '3px' }"></ngx-loading>
+    <div class="content-wrapper">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="gv-card col-sm-3 mb-3 mt-3" *ngFor="let res of data">
+              <div class="card">
+                <img class="imagePro pic" src={{res.mission_patch}} />
+                <div class="card-body">
+                  <p class="card-text blue"><b>{{res.mission_name}}#{{res.flight_number}}</b></p>
+                  <p class="card-title"><b>Mission Ids:</b></p>
+                  <ul *ngFor='let mission of res.mission_id'>
+                    <li class="card-text blue">{{mission}}</li>
+                  </ul>
+                  <p class="card-title"><b>Launch Year:</b><small class="blue">{{res.launch_year}}</small> </p>
+                  <p class="card-title"><b>Successful Launch:</b><small class="blue"> {{res.launch_success}}</small></p>
+                  <p class="card-title"><b>Successful Landing:</b><small class="blue"> {{res.land_success}}</small></p>
+                </div>
+              </div>
+            </div>
+          </div>
+  
+        </div>
+      </div>
+  
+  
